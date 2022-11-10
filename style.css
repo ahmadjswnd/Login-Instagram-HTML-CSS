@@ -1,0 +1,107 @@
+body {
+  background: #fafafa;
+  font-family: Arial, Helvetica, sans-serif;
+}
+table {
+  width: 400px;
+  align-items: center;
+  background-color: #ffffff;
+  border: 2px solid #dbdbdb;
+  padding: 30px;
+}
+#login {
+  text-align: center;
+}
+#login img {
+  width: 170px;
+  margin-bottom: 10px;
+}
+#buatakun {
+  text-align: center;
+}
+input {
+  border-radius: 3px;
+  padding: 6px 18px;
+  width: 200px;
+  background-color: #fafafa;
+  border: 2px solid #dbdbdb;
+}
+input:hover {
+  border: 2px solid #dbdbdb;
+}
+input:active {
+  border: 2px solid #dbdbdb;
+}
+#formPass {
+  margin-top: 6px;
+}
+button {
+  margin-top: 12px;
+  border: none;
+  border-radius: 3px;
+  padding: 6px 18px;
+  width: 240px;
+  background-color: #b2e0fa;
+  color: white;
+  margin-top: 20px;
+}
+button:hover {
+  background-color: #1c9df0;
+}
+#buatakun {
+  margin-top: 12px;
+  padding: 12px 0;
+}
+#buatakun a {
+  text-decoration: none;
+  color: #1c9df0;
+}
+#atau {
+  color: #9a9a9a;
+  font-size: 14px;
+  position: relative;
+  margin-bottom: 20px;
+}
+#atau p:before {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: #9a9a9a;
+  position: absolute;
+  left: 50px;
+  top: 50%;
+}
+#atau p:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: #9a9a9a;
+  position: absolute;
+  right: 50px;
+  top: 50%;
+}
+#masuk a {
+  font-weight: 600;
+  font-size: medium;
+  text-decoration: none;
+  color: #385282;
+}
+#masuk svg {
+  width: 16px;
+  color: #385282;
+  padding-right: 6px;
+  cursor: pointer;
+}
+#masuk svg:hover {
+  color: #385282;
+  cursor: pointer;
+}
+#masuk td {
+  padding: 18px 0;
+}
+#lupa a {
+  text-decoration: none;
+  color: #385282;
+}
